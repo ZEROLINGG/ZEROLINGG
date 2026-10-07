@@ -71,10 +71,6 @@ Current focus: **compile-time obfuscation**, **anti-debugging**, **persistent sh
 
 [![Tools](https://skillicons.dev/icons?i=kali,github,cloudflare,tauri,docker&theme=dark)](https://skillicons.dev)
 
-**Currently exploring**
-
-`LLVM Pass` · `no_std` systems · `MCP` · `WebAssembly` · deeper anti-reversing
-
 ---
 
 ### My Setup
@@ -83,7 +79,6 @@ Current focus: **compile-time obfuscation**, **anti-debugging**, **persistent sh
 
 ![Kali](https://img.shields.io/badge/Kali_Linux-557C94?style=for-the-badge&logo=kalilinux&logoColor=white)
 ![niri](https://img.shields.io/badge/niri-Wayland-0067B9?style=for-the-badge)
-![Cloudflare](https://img.shields.io/badge/Cloudflare_Workers-F6821F?style=for-the-badge&logo=cloudflare&logoColor=white)
 
 ---
 
