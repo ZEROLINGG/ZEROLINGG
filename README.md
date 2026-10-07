@@ -59,7 +59,7 @@ Current focus: **compile-time obfuscation**, **anti-debugging**, **persistent sh
 
 **Also comfortable with**
 
-[![Skills](https://skillicons.dev/icons?i=js,ts,html,css,cmake,wasm&theme=dark)](https://skillicons.dev)
+[![Skills](https://skillicons.dev/icons?i=js,ts,html,css,wasm,cmake&theme=dark)](https://skillicons.dev)
 
 **IDEs**
 
@@ -69,7 +69,7 @@ Current focus: **compile-time obfuscation**, **anti-debugging**, **persistent sh
 
 **Platforms & Tools**
 
-[![Tools](https://skillicons.dev/icons?i=kali,git,github,cloudflare,tauri,docker&theme=dark)](https://skillicons.dev)
+[![Tools](https://skillicons.dev/icons?i=kali,github,cloudflare,tauri,docker&theme=dark)](https://skillicons.dev)
 
 **Currently exploring**
 
