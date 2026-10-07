@@ -1,13 +1,8 @@
-<div align="center">
-
 [![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=28&pause=1000&color=2196F3&center=true&vCenter=true&width=600&lines=Hi%2C+I'm+ZEROLINGG;Rust+systems+%26+security+tools;Obfuscation+%C2%B7+Anti-debug+%C2%B7+MCP+%C2%B7+Workers)](https://git.io/typing-svg)
 
-**Security-minded systems programmer** · CTF / Red Team · Rust tool builder
+**Security-minded systems programmer · CTF / Red Team · Rust tool builder**
 
-![Visitor Count](https://komarev.com/ghpvc/?username=ZEROLINGG&color=2196F3&style=for-the-badge)
-[![GitHub followers](https://img.shields.io/github/followers/ZEROLINGG?style=for-the-badge&logo=github)](https://github.com/ZEROLINGG)
-
-</div>
+![Visitor Count](https://komarev.com/ghpvc/?username=ZEROLINGG&color=2196F3&style=for-the-badge) ![GitHub followers](https://img.shields.io/github/followers/ZEROLINGG?style=for-the-badge&logo=github)
 
 ---
 
@@ -42,12 +37,7 @@ Current focus: **compile-time obfuscation**, **anti-debugging**, **persistent sh
 
 ### Crates.io
 
-[![shell-engine](https://img.shields.io/crates/v/shell-engine?label=shell-engine&logo=rust)](https://crates.io/crates/shell-engine)
-[![terminal-mcp](https://img.shields.io/crates/v/terminal-mcp?label=terminal-mcp&logo=rust)](https://crates.io/crates/terminal-mcp)
-[![obfstr2](https://img.shields.io/crates/v/obfstr2?label=obfstr2&logo=rust)](https://crates.io/crates/obfstr2)
-[![lib-unknown](https://img.shields.io/crates/v/lib-unknown?label=lib-unknown&logo=rust)](https://crates.io/crates/lib-unknown)
-[![string-analyze](https://img.shields.io/crates/v/string-analyze?label=string-analyze&logo=rust)](https://crates.io/crates/string-analyze)
-[![anti-dbg](https://img.shields.io/crates/v/anti-dbg?label=anti-dbg&logo=rust)](https://crates.io/crates/anti-dbg)
+[![shell-engine](https://img.shields.io/crates/v/shell-engine?label=shell-engine&logo=rust)](https://crates.io/crates/shell-engine) [![terminal-mcp](https://img.shields.io/crates/v/terminal-mcp?label=terminal-mcp&logo=rust)](https://crates.io/crates/terminal-mcp) [![obfstr2](https://img.shields.io/crates/v/obfstr2?label=obfstr2&logo=rust)](https://crates.io/crates/obfstr2) [![lib-unknown](https://img.shields.io/crates/v/lib-unknown?label=lib-unknown&logo=rust)](https://crates.io/crates/lib-unknown) [![string-analyze](https://img.shields.io/crates/v/string-analyze?label=string-analyze&logo=rust)](https://crates.io/crates/string-analyze) [![anti-dbg](https://img.shields.io/crates/v/anti-dbg?label=anti-dbg&logo=rust)](https://crates.io/crates/anti-dbg)
 
 ---
 
@@ -63,9 +53,9 @@ Current focus: **compile-time obfuscation**, **anti-debugging**, **persistent sh
 
 **IDEs**
 
-![RustRover](https://img.shields.io/badge/RustRover-000000?style=for-the-badge&logo=jetbrains&logoColor=white)
+[![RustRover](https://img.shields.io/badge/RustRover-000000?style=for-the-badge&logo=jetbrains&logoColor=white)](https://www.jetbrains.com/rust/)
 
-[![IDEs](https://skillicons.dev/icons?i=clion,pycharm,idea,webstorm,vscode&theme=dark)](https://skillicons.dev)
+[![IDEs](https://skillicons.dev/icons?i=clion,pycharm,idea,webstorm&theme=dark)](https://www.jetbrains.com/)
 
 **Platforms & Tools**
 
@@ -77,8 +67,7 @@ Current focus: **compile-time obfuscation**, **anti-debugging**, **persistent sh
 
 **Laptop** — Lenovo XiaoXinAir 15ITL 2021 (i5-1135G7 + MX450 + Iris Xe)
 
-![Kali](https://img.shields.io/badge/Kali_Linux-557C94?style=for-the-badge&logo=kalilinux&logoColor=white)
-![niri](https://img.shields.io/badge/niri-Wayland-0067B9?style=for-the-badge)
+[![Kali](https://img.shields.io/badge/Kali_Linux-2777ff?style=for-the-badge&logo=kalilinux&logoColor=white)](https://www.kali.org/) [![niri](https://img.shields.io/badge/niri-Wayland-D3865A?style=for-the-badge)](https://github.com/niri-wm/niri)
 
 ---
 
