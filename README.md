@@ -1,8 +1,12 @@
+<div align="center">
+
 [![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=28&pause=1000&color=2196F3&center=true&vCenter=true&width=600&lines=Hi%2C+I'm+ZEROLINGG;Rust+systems+%26+security+tools;Obfuscation+%C2%B7+Anti-debug+%C2%B7+MCP+%C2%B7+Workers)](https://git.io/typing-svg)
 
 **Security-minded systems programmer · CTF / Red Team · Rust tool builder**
 
 ![Visitor Count](https://komarev.com/ghpvc/?username=ZEROLINGG&color=2196F3&style=for-the-badge) ![GitHub followers](https://img.shields.io/github/followers/ZEROLINGG?style=for-the-badge&logo=github)
+
+</div>
 
 ---
 
