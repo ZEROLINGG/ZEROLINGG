@@ -5,7 +5,7 @@ import starlight from '@astrojs/starlight';
 // https://astro.build/config
 export default defineConfig({
 	site: 'https://zerolingg.github.io',
-	base: '/ZEROLINGG',
+	base: '/ZEROLINGG/',
 	integrations: [
 		starlight({
 			title: 'ZEROLINGG',
@@ -17,8 +17,12 @@ export default defineConfig({
 				{ tag: 'meta', attrs: { property: 'og:image', content: 'https://zerolingg.github.io/ZEROLINGG/og.png' } },
 				{ tag: 'meta', attrs: { name: 'twitter:card', content: 'summary_large_image' } },
 				{ tag: 'meta', attrs: { name: 'twitter:image', content: 'https://zerolingg.github.io/ZEROLINGG/og.png' } },
-				{ tag: 'meta', attrs: { name: 'theme-color', content: '#191724' } },
-			],
+			{ tag: 'meta', attrs: { name: 'theme-color', media: '(prefers-color-scheme: light)', content: '#faf4ed' } },
+			{ tag: 'meta', attrs: { name: 'theme-color', media: '(prefers-color-scheme: dark)', content: '#1f1d2b' } },
+		],
+		expressiveCode: {
+			themes: ['rose-pine-moon', 'rose-pine-dawn'],
+		},
 			lastUpdated: true,
 			editLink: {
 				baseUrl: 'https://github.com/ZEROLINGG/ZEROLINGG/edit/main/',

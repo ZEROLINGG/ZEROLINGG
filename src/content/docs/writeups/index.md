@@ -7,5 +7,5 @@ CTF writeups
 
 ## Categories
 
-- [Reverse](./reverse/) — binary reversing, obfuscation, anti-debug
-- [PWN](./pwn/) — binary exploitation
+- [Reverse](./writeups/reverse/) — binary reversing, obfuscation, anti-debug
+- [PWN](./writeups/pwn/) — binary exploitation

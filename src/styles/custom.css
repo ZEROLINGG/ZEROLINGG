@@ -1,30 +1,51 @@
-
+/* Theme: Rosé Pine (light = Dawn, dark = Moon), rose primary + iris accent. */
 
 :root {
-	--sl-color-bg: #FDFAFA;
-	--sl-color-bg-nav: #FAEFED;
-	--sl-color-bg-sidebar: #FAEFED;
+	--sl-color-bg: #faf4ed;
+	--sl-color-bg-nav: #fffaf3;
+	--sl-color-bg-sidebar: #fffaf3;
 
 	--sl-color-accent-low: #f5e3e1;
-	--sl-color-accent: #d7a19d;
+	--sl-color-accent: #d7827e;
 	--sl-color-accent-high: #a85570;
 
-	--sl-color-text: #332f44;
+	--sl-color-text: #575279;
 	--sl-color-text-accent: #a85570;
-	--sl-color-text-invert: #FDFAFA;
+	--sl-color-text-invert: #faf4ed;
 
-	--sl-color-hairline: #e0cfcb;
+	--sl-color-white: #575279;
+	--sl-color-gray-1: #575279;
+	--sl-color-gray-2: #6e6a86;
+	--sl-color-gray-3: #6e6980;
+	--sl-color-gray-4: #9893a5;
+	--sl-color-gray-5: #dfdad9;
+	--sl-color-gray-6: #f2e9e1;
+	--sl-color-gray-7: #fffaf3;
+	--sl-color-black: #fffaf3;
+
+	--sl-color-hairline: #dfdad9;
+	--sl-color-hairline-light: #f2e9e1;
+	--sl-color-hairline-shade: #cecacd;
 	--sl-color-bg-inline-code: #f2e9e1;
+	--sl-color-bg-accent: #a85570;
 
-	--sl-color-accent-hover: #8f485f;
-	--sl-color-focus-ring: #a85570;
+	--sl-color-backdrop-overlay: hsla(249, 12%, 34%, 0.66);
 
-	--sl-color-green: #7d9471;
-	--sl-color-green-high: #5f7556;
-	--sl-color-yellow: #c9a227;
-	--sl-color-yellow-high: #a8871e;
-	--sl-color-red: #c15d6c;
-	--sl-color-red-high: #a04656;
+	--sl-color-green-low: #e4edec;
+	--sl-color-green: #286983;
+	--sl-color-green-high: #1f4e5f;
+	--sl-color-orange-low: #f9edd8;
+	--sl-color-orange: #c08a2d;
+	--sl-color-orange-high: #7d5a16;
+	--sl-color-red-low: #f7e3e6;
+	--sl-color-red: #b4637a;
+	--sl-color-red-high: #8e3f57;
+	--sl-color-blue-low: #e2eef0;
+	--sl-color-blue: #56949f;
+	--sl-color-blue-high: #386e77;
+	--sl-color-purple-low: #ece5f1;
+	--sl-color-purple: #907aa9;
+	--sl-color-purple-high: #6b5583;
 }
 
 :root[data-theme='dark'] {
@@ -33,27 +54,120 @@
 	--sl-color-bg-sidebar: #242230;
 
 	--sl-color-accent-low: #2a273f;
-	--sl-color-accent: #d7a9a7;
+	--sl-color-accent: #eb6f92;
 	--sl-color-accent-high: #c4a7e7;
 
 	--sl-color-text: #c7c4da;
 	--sl-color-text-accent: #d8869b;
 	--sl-color-text-invert: #1f1d2b;
 
-	--sl-color-hairline: #332f44;
+	--sl-color-white: #ffffff;
+	--sl-color-gray-1: #e0def4;
+	--sl-color-gray-2: #c7c4da;
+	--sl-color-gray-3: #908caa;
+	--sl-color-gray-4: #6e6a86;
+	--sl-color-gray-5: #393552;
+	--sl-color-gray-6: #2a273f;
+	--sl-color-gray-7: #2a273f;
+	--sl-color-black: #1f1d2b;
+
+	--sl-color-hairline: #44415a;
+	--sl-color-hairline-light: #393552;
+	--sl-color-hairline-shade: #232136;
 	--sl-color-bg-inline-code: #262436;
+	--sl-color-bg-accent: #c4a7e7;
 
-	--sl-color-accent-hover: #cdb4eb;
-	--sl-color-focus-ring: #c4a7e7;
+	--sl-color-backdrop-overlay: hsla(246, 15%, 12%, 0.66);
 
-	--sl-color-green: #9cb086;
-	--sl-color-green-high: #b5c7a1;
-	--sl-color-yellow: #e0c35e;
-	--sl-color-yellow-high: #ecd486;
-	--sl-color-red: #d8869b;
-	--sl-color-red-high: #e3a3b4;
+	--sl-color-green-low: #1f3237;
+	--sl-color-green: #3e8fb0;
+	--sl-color-green-high: #9ccfd8;
+	--sl-color-orange-low: #3a2f22;
+	--sl-color-orange: #f6c177;
+	--sl-color-orange-high: #fae3b8;
+	--sl-color-red-low: #3d2a33;
+	--sl-color-red: #eb6f92;
+	--sl-color-red-high: #f5b9c9;
+	--sl-color-blue-low: #22373c;
+	--sl-color-blue: #9ccfd8;
+	--sl-color-blue-high: #cfe9ed;
+	--sl-color-purple-low: #322a45;
+	--sl-color-purple: #c4a7e7;
+	--sl-color-purple-high: #ddd0f2;
 }
 
 :root {
 	--sl-content-width: 48rem;
+
+	--radius-code: 8px;
+	--radius-tab: 6px;
+	--radius-card: 10px;
+	--radius-inline: 6px;
+}
+
+::selection {
+	background: rgb(215 130 126 / 0.28);
+	color: var(--sl-color-text);
+}
+:root[data-theme='dark'] ::selection {
+	background: rgb(196 167 231 / 0.32);
+	color: #e0def4;
+}
+
+
+:root .expressive-code {
+	--ec-codeSelBg: rgb(110 106 134 / 0.22);
+	--ec-uiSelBg: rgb(215 130 126 / 0.26);
+	--ec-focusBrd: rgb(168 85 112 / 0.55);
+}
+:root[data-theme='dark'] .expressive-code {
+	--ec-codeSelBg: rgb(129 124 156 / 0.38);
+	--ec-uiSelBg: rgb(196 167 231 / 0.3);
+	--ec-focusBrd: rgb(196 167 231 / 0.65);
+}
+
+:root {
+    select {
+      appearance: base-select;
+    }
+    ::picker-icon {
+        display: none;
+    }
+
+}
+
+@layer starlight.components {
+	.expressive-code {
+		--ec-brdRad: var(--radius-code);
+		--ec-frm-edTabBrdRad: var(--radius-tab);
+	}
+
+	.expressive-code .copy button,
+	.expressive-code .copy .feedback {
+		border-radius: var(--radius-inline);
+	}
+
+	.sl-markdown-content code:not(pre code),
+	.sl-badge {
+		border-radius: var(--radius-inline);
+	}
+
+	.starlight-aside {
+		border: 1px solid var(--sl-color-hairline);
+		border-inline-start: 3px solid var(--sl-color-asides-border);
+		border-radius: var(--radius-card);
+	}
+
+	.card {
+		border-radius: 12px;
+	}
+
+
+	starlight-theme-select select:focus-visible,
+	starlight-lang-select select:focus-visible {
+		outline: 2px solid var(--sl-color-accent-high);
+		border-radius: 0.2rem;
+	}
+
+
 }

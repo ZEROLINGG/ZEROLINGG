@@ -12,7 +12,7 @@ Current focus:
 - 🛡️ Binary protection & anti-reversing — compile-time obfuscation (`obfstr2`), anti-debugging (`anti-dbg`), LLVM passes (`ollvm_pass`)
 - 🖥️ Long-lived interactive shells & AI agent tooling — `shell-engine`, `terminal-mcp`
 - 🌐 Practical networking tools — zero-cost proxy on Cloudflare Workers (`free-proxy`)
-- 🚩 CTF (mainly Reverse / PWN) & red-team utilities — [Writeups](/ZEROLINGG/writeups/)
+- 🚩 CTF (mainly Reverse / PWN) & red-team utilities — [Writeups](../writeups/)
 
 Full profile, project list and GitHub stats live on my GitHub — single source of truth, no duplicate here:
 

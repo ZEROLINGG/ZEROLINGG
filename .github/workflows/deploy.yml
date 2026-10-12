@@ -19,6 +19,12 @@ jobs:
     steps:
       - name: Checkout your repository using git
         uses: actions/checkout@v7
+      - name: Clear Astro caches
+        # Rendered Markdown is cached in node_modules/.astro and is NOT
+        # invalidated by config changes (e.g. expressiveCode themes), which
+        # can leave HTML referencing stale hashed assets. Always rebuild
+        # from scratch. Safe as a no-op on fresh runners.
+        run: rm -rf dist .astro node_modules/.astro
       - name: Install, build, and upload your site
         uses: withastro/action@v6
 
