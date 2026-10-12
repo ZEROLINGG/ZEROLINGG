@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://zerolingg.github.io/ZEROLINGG/sitemap-index.xml

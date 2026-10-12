@@ -14,7 +14,9 @@ export default defineConfig({
 			head: [
 				{ tag: 'meta', attrs: { property: 'og:type', content: 'website' } },
 				{ tag: 'meta', attrs: { property: 'og:site_name', content: 'ZEROLINGG' } },
-				{ tag: 'meta', attrs: { name: 'twitter:card', content: 'summary' } },
+				{ tag: 'meta', attrs: { property: 'og:image', content: 'https://zerolingg.github.io/ZEROLINGG/og.png' } },
+				{ tag: 'meta', attrs: { name: 'twitter:card', content: 'summary_large_image' } },
+				{ tag: 'meta', attrs: { name: 'twitter:image', content: 'https://zerolingg.github.io/ZEROLINGG/og.png' } },
 				{ tag: 'meta', attrs: { name: 'theme-color', content: '#191724' } },
 			],
 			lastUpdated: true,
