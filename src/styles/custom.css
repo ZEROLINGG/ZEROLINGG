@@ -1,0 +1,33 @@
+/* Rosé Pine (dark) — https://rosepinetheme.com */
+:root {
+	/* light mode: Rosé Pine Dawn, biased pink */
+	--sl-color-accent-low: #f2e9e1;
+	--sl-color-accent: #d7827e;
+	--sl-color-accent-high: #b4637a;
+	--sl-color-text-accent: #b4637a;
+	--sl-color-bg-nav: #fffaf3;
+	--sl-color-bg-sidebar: #faf4ed;
+}
+
+:root[data-theme='dark'] {
+	/* base/surface/overlay */
+	--sl-color-bg: #191724;
+	--sl-color-bg-nav: #1f1d2e;
+	--sl-color-bg-sidebar: #1f1d2e;
+	/* accent: rose, low: overlay, high: text (contrast on dark) */
+	--sl-color-accent-low: #26233a;
+	--sl-color-accent: #ebbcba;
+	--sl-color-accent-high: #e0def4;
+	/* text */
+	--sl-color-text: #e0def4;
+	--sl-color-text-accent: #eb6f92;
+	--sl-color-text-invert: #191724;
+	/* hairlines + inline code */
+	--sl-color-hairline: #403d52;
+	--sl-color-bg-inline-code: #21202e;
+}
+
+/* slightly wider reading column for writeups */
+:root {
+	--sl-content-width: 48rem;
+}
