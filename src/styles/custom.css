@@ -1,33 +1,59 @@
-/* Rosé Pine (dark) — https://rosepinetheme.com */
+
+
 :root {
-	/* light mode: Rosé Pine Dawn, biased pink */
-	--sl-color-accent-low: #f2e9e1;
-	--sl-color-accent: #d7827e;
-	--sl-color-accent-high: #b4637a;
-	--sl-color-text-accent: #b4637a;
-	--sl-color-bg-nav: #fffaf3;
-	--sl-color-bg-sidebar: #faf4ed;
+	--sl-color-bg: #FDFAFA;
+	--sl-color-bg-nav: #FAEFED;
+	--sl-color-bg-sidebar: #FAEFED;
+
+	--sl-color-accent-low: #f5e3e1;
+	--sl-color-accent: #d7a19d;
+	--sl-color-accent-high: #a85570;
+
+	--sl-color-text: #332f44;
+	--sl-color-text-accent: #a85570;
+	--sl-color-text-invert: #FDFAFA;
+
+	--sl-color-hairline: #e0cfcb;
+	--sl-color-bg-inline-code: #f2e9e1;
+
+	--sl-color-accent-hover: #8f485f;
+	--sl-color-focus-ring: #a85570;
+
+	--sl-color-green: #7d9471;
+	--sl-color-green-high: #5f7556;
+	--sl-color-yellow: #c9a227;
+	--sl-color-yellow-high: #a8871e;
+	--sl-color-red: #c15d6c;
+	--sl-color-red-high: #a04656;
 }
 
 :root[data-theme='dark'] {
-	/* base/surface/overlay */
-	--sl-color-bg: #191724;
-	--sl-color-bg-nav: #1f1d2e;
-	--sl-color-bg-sidebar: #1f1d2e;
-	/* accent: rose, low: overlay, high: text (contrast on dark) */
-	--sl-color-accent-low: #26233a;
-	--sl-color-accent: #ebbcba;
-	--sl-color-accent-high: #e0def4;
-	/* text */
-	--sl-color-text: #e0def4;
-	--sl-color-text-accent: #eb6f92;
-	--sl-color-text-invert: #191724;
-	/* hairlines + inline code */
-	--sl-color-hairline: #403d52;
-	--sl-color-bg-inline-code: #21202e;
+	--sl-color-bg: #1f1d2b;
+	--sl-color-bg-nav: #242230;
+	--sl-color-bg-sidebar: #242230;
+
+	--sl-color-accent-low: #2a273f;
+	--sl-color-accent: #d7a9a7;
+	--sl-color-accent-high: #c4a7e7;
+
+	--sl-color-text: #c7c4da;
+	--sl-color-text-accent: #d8869b;
+	--sl-color-text-invert: #1f1d2b;
+
+	--sl-color-hairline: #332f44;
+	--sl-color-bg-inline-code: #262436;
+
+	--sl-color-accent-hover: #cdb4eb;
+	--sl-color-focus-ring: #c4a7e7;
+
+	--sl-color-green: #9cb086;
+	--sl-color-green-high: #b5c7a1;
+	--sl-color-yellow: #e0c35e;
+	--sl-color-yellow-high: #ecd486;
+	--sl-color-red: #d8869b;
+	--sl-color-red-high: #e3a3b4;
 }
 
-/* slightly wider reading column for writeups */
 :root {
 	--sl-content-width: 48rem;
 }
