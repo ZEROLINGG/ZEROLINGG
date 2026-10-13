@@ -1,6 +1,7 @@
 // @ts-check
 import { defineConfig } from 'astro/config';
 import starlight from '@astrojs/starlight';
+import starlightBlog from 'starlight-blog';
 
 // https://astro.build/config
 export default defineConfig({
@@ -10,6 +11,17 @@ export default defineConfig({
 		starlight({
 			title: 'ZEROLINGG',
 			description: 'Security-minded systems programmer · Rust tool builder',
+			plugins: [
+				starlightBlog({
+					title: 'Blog',
+					authors: {
+						zerolingg: {
+							name: 'ZEROLINGG',
+							url: 'https://github.com/ZEROLINGG',
+						},
+					},
+				}),
+			],
 			customCss: ['./src/styles/custom.css'],
 			head: [
 				{ tag: 'meta', attrs: { property: 'og:type', content: 'website' } },
@@ -32,6 +44,14 @@ export default defineConfig({
 				{
 					label: 'About',
 					items: [{ label: 'About Me', slug: 'about' }],
+				},
+				{
+					label: 'Blog',
+					items: [{ label: 'All posts', link: '/blog/' }],
+				},
+				{
+					label: 'Knowledge',
+					items: [{ autogenerate: { directory: 'knowledge' } }],
 				},
 				{
 					label: 'Writeups',
