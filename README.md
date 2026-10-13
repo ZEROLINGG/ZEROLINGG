@@ -4,7 +4,7 @@
 
 **Security-minded systems programmer · CTF / Red Team · Rust tool builder**
 
-![Visitor Count](https://komarev.com/ghpvc/?username=ZEROLINGG&color=2196F3&style=for-the-badge) ![GitHub followers](https://img.shields.io/github/followers/ZEROLINGG?style=for-the-badge&logo=github)
+![GitHub followers](https://img.shields.io/github/followers/ZEROLINGG?style=for-the-badge&logo=github)
 
 </div>
 
