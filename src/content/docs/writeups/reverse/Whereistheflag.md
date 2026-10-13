@@ -1,6 +1,6 @@
 ---
 title: Whereistheflag
-description: Bugku Reverse — patch a u128 comparison at runtime with GDB watchpoints to bypass OLLVM-obfuscated Rust binary.
+description: Bugku Reverse，GDB watchpoint patch u128 比较绕过 OLLVM 混淆 Rust 二进制。
 ---
 
 > **来源:** [Bugku CTF — Whereistheflag](https://ctf.bugku.com/challenges/detail/id/3085.html) 
