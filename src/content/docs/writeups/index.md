@@ -7,5 +7,6 @@ CTF writeups
 
 ## Categories
 
-- [Reverse](./writeups/reverse/) — binary reversing, obfuscation, anti-debug
-- [PWN](./writeups/pwn/) — binary exploitation
+- [Reverse](./reverse/) — binary reversing, obfuscation, anti-debug
+- [PWN](./pwn/) — binary exploitation
+- [Mobile](./mobile/) — APK reverse, manifest stego

@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md",
-                "mode": "preview",
+                "file": "src/content/docs/writeups/mobile/mobile2-gctf.md",
+                "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "README"
+              "title": "mobile2-gctf"
             }
           }
         ]
@@ -99,7 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "README.md",
+                "file": "src/content/docs/writeups/reverse/Whereistheflag.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -161,7 +161,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "README.md",
+                "file": "src/content/docs/writeups/mobile/mobile2-gctf.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -170,12 +170,12 @@
               "title": "大纲"
             }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -190,6 +190,40 @@
   },
   "active": "fc81ef6cdd72f165",
   "lastOpenFiles": [
-    "README.md~"
+    "src/content/docs/writeups/mobile/index.md",
+    "src/content/docs/writeups/mobile/mobile2-gctf.md",
+    "src/content/docs/writeups/pwn/index.md",
+    "src/content/docs/writeups/reverse/Whereistheflag.md",
+    "src/content/docs/writeups/_template.md",
+    "dist/sitemap-0.xml",
+    "dist/sitemap-index.xml",
+    "dist/pagefind/pagefind-entry.json",
+    "dist/pagefind/wasm.unknown.pagefind",
+    "dist/pagefind/pagefind-component-ui.css",
+    "dist/pagefind/pagefind-component-ui.js",
+    "dist/pagefind/pagefind-modular-ui.js",
+    "dist/pagefind/pagefind-ui.css",
+    "dist/pagefind/pagefind-ui.js",
+    "dist/pagefind/pagefind-worker.js",
+    "dist/_astro/houston.CZZyCf7p_xmyrN.webp",
+    "dist/_astro/houston.CZZyCf7p.webp",
+    "dist/og.png",
+    "dist/favicon.svg",
+    "src/content/docs/blog/2026-10-hello.md",
+    "src/assets/attachments/Pasted image 20261015104221.png",
+    "src/assets/houston.webp",
+    "README.md",
+    "src/content/docs/writeups/reverse/mobile2(gctf).md",
+    "src/assets/attachments/Pasted image 20261015104114.png",
+    "src/assets/Pasted image 20261015103512.png",
+    "src/content/docs/writeups/reverse/index.md",
+    "src/content/docs/about.md",
+    "src/content/docs/knowledge/tooling/index.md",
+    "src/content/docs/knowledge/rust/index.md",
+    "src/content/docs/knowledge/reverse/index.md",
+    "src/content/docs/knowledge/networking/index.md",
+    "whereistheflag.md",
+    "public/og.png",
+    "public/favicon.svg"
   ]
 }
