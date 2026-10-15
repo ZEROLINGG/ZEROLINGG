@@ -14,10 +14,6 @@ vuln_type: []
 technique: ["manifest-analysis", "strings-utf16le"]
 ---
 
-<!--
-说明：标题已写入 frontmatter 的 title 字段，正文不再重复写一级标题，
-以适配 Astro/Starlight 框架（框架会自动从 frontmatter 渲染页面标题）。
--->
 
 ## Meta Info
 

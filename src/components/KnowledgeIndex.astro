@@ -1,0 +1,64 @@
+---
+import { getCollection } from 'astro:content';
+
+interface Props {
+	/** 限定子目录，如 "knowledge/rust"；不传则列出全部 Knowledge 文章 */
+	directory?: string;
+}
+
+const { directory } = Astro.props;
+
+const entries = (await getCollection('docs', ({ id, data }) => {
+	if (!id.startsWith('knowledge/')) return false;
+	// 落地页（knowledge/、knowledge/rust/ …）只有 ≤2 段，正文固定在三级路径 knowledge/<topic>/<slug>
+	if (id.split('/').length < 3) return false;
+	if ((data as Record<string, unknown>).draft === true) return false;
+	if (directory && !id.startsWith(directory + '/')) return false;
+	return true;
+})).sort((a, b) => {
+	const getTime = (e: (typeof a)) => {
+		const d = e.data as Record<string, any>;
+		const t = d.updated instanceof Date ? d.updated.getTime() : d.date instanceof Date ? d.date.getTime() : 0;
+		return t;
+	};
+	return getTime(b) - getTime(a);
+});
+
+const grouped = new Map<string, typeof entries>();
+for (const e of entries) {
+	const d = e.data as Record<string, any>;
+	const key = (d.topic as string) || e.id.split('/')[1] || 'misc';
+	if (!grouped.has(key)) grouped.set(key, []);
+	grouped.get(key)!.push(e);
+}
+
+const base = import.meta.env.BASE_URL.endsWith('/')
+	? import.meta.env.BASE_URL.slice(0, -1)
+	: import.meta.env.BASE_URL;
+const hrefOf = (id: string) => `${base}/${id.replace(/\.mdx?$/, '')}/`;
+---
+
+{entries.length === 0 ? (
+	<p><em>该分区暂无沉淀文章，持续更新中。</em></p>
+) : (
+	<>
+		{[...grouped.entries()].map(([topic, list]) => (
+			<>
+				{!directory && <h3>{topic}</h3>}
+				<ul>
+					{list.map((e) => {
+						const d = e.data as Record<string, any>;
+						return (
+							<li>
+								<a href={hrefOf(e.id)}>{e.data.title}</a>
+								{e.data.description ? <> — {e.data.description}</> : null}
+								{d.status ? <> <span class="sl-badge">{d.status}</span></> : null}
+							</li>
+						);
+					})}
+				</ul>
+			</>
+		))}
+		<p><small>共 {entries.length} 篇。</small></p>
+	</>
+)}
