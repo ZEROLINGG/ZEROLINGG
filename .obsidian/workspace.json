@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "src/content/docs/writeups/mobile/mobile2-gctf.md",
+                "file": "src/content/docs/writeups/reverse/Whereistheflag.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "mobile2-gctf"
+              "title": "Whereistheflag"
             }
           }
         ]
@@ -161,7 +161,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "src/content/docs/writeups/mobile/mobile2-gctf.md",
+                "file": "src/content/docs/writeups/reverse/Whereistheflag.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -190,25 +190,25 @@
   },
   "active": "fc81ef6cdd72f165",
   "lastOpenFiles": [
-    "src/content/docs/writeups/mobile/index.md",
     "src/content/docs/writeups/mobile/mobile2-gctf.md",
-    "src/content/docs/writeups/pwn/index.md",
-    "src/content/docs/writeups/reverse/Whereistheflag.md",
     "src/content/docs/writeups/_template.md",
     "dist/sitemap-0.xml",
     "dist/sitemap-index.xml",
     "dist/pagefind/pagefind-entry.json",
     "dist/pagefind/wasm.unknown.pagefind",
-    "dist/pagefind/pagefind-component-ui.css",
     "dist/pagefind/pagefind-component-ui.js",
+    "dist/pagefind/pagefind-modular-ui.css",
     "dist/pagefind/pagefind-modular-ui.js",
-    "dist/pagefind/pagefind-ui.css",
     "dist/pagefind/pagefind-ui.js",
+    "dist/pagefind/pagefind-ui.css",
     "dist/pagefind/pagefind-worker.js",
     "dist/_astro/houston.CZZyCf7p_xmyrN.webp",
     "dist/_astro/houston.CZZyCf7p.webp",
     "dist/og.png",
     "dist/favicon.svg",
+    "src/content/docs/writeups/reverse/Whereistheflag.md",
+    "src/content/docs/writeups/mobile/index.md",
+    "src/content/docs/writeups/pwn/index.md",
     "src/content/docs/blog/2026-10-hello.md",
     "src/assets/attachments/Pasted image 20261015104221.png",
     "src/assets/houston.webp",

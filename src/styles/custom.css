@@ -169,5 +169,16 @@
 		border-radius: 0.2rem;
 	}
 
+	/* Mermaid (rehype-mermaid img-svg): prevent CLS + keep details readable. */
+	.sl-markdown-content details picture img {
+		max-width: 100%;
+		height: auto;
+		display: block;
+		margin: 0.5rem auto;
+		transition: opacity 0.15s ease;
+	}
+	.sl-markdown-content details {
+		overflow-x: auto;
+	}
 
 }

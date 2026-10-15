@@ -27,8 +27,8 @@ technique: ["gdb-watchpoint", "u128-compare-patch", "ollvm-bypass"]
 
 | Filename | Size | Type | SHA256 | Notes |
 | ------------- | ---------- | --------------- | ------------------ | -------------------- |
-| Whereistheflag | 15MB | ELF 64-bit LSB pie executable, x86-64, static-pie linked, stripped | `38383225ad6bb804c52d6c848f4eec1bddd88de41108c09b5ac8a416855b2262` | BuildID `ec2839e96efc72f25537d5e8dc7e5aedbb2aff74` |
-| main.rs（题面附带源码片段） | — | Rust 源码 | — | 含 OLLVM 编译参数与 `seed() == 123456789` 比较逻辑，见 Workflow Step 1 |
+| Whereistheflag | 15MB | x86-64 ELF | `38383225ad6bb804c52d6c848f4eec1bddd88de41108c09b5ac8a416855b2262` | BuildID `ec2839e96efc72f25537d5e8dc7e5aedbb2aff74` |
+| main.rs | 638B | Rust 源码 | `be7a5ee7c1200aba76d01e14169d1b2f35e0f1d9b840b6c1598f38ffb46b0ca1` | 含 OLLVM 编译参数与 `seed() == 123456789` 比较逻辑，见 Workflow Step 1 |
 
 ### Environment
 
@@ -52,7 +52,7 @@ bugku{7b476efc-1f1b-4c01-b8f9-d664d12ca75f}
 15MB Rust static-pie 二进制经 OLLVM 多轮混淆，字符串编译期加密使 IDA 与 `strings` 失效。以 `write` 系统调用锚定失败分支输出时刻，穷举常量 `123456789` 的 u128 内存副本并用条件 `awatch` 重建栈上搬运路径，从 `xor` 低位 / `xor` 高位展开语义反推出 `seed()` 返回值位置，打补丁使比较成立即触发 flag 分支。
 
 <details>
-<summary>Attack Chain Diagram (Optional)</summary>
+<summary>Attack Chain Diagram</summary>
 
 ```mermaid
 graph LR
@@ -280,3 +280,4 @@ bugku{7b476efc-1f1b-4c01-b8f9-d664d12ca75f}
 ## Links
 
 - [Bugku CTF — Whereistheflag](https://ctf.bugku.com/challenges/detail/id/3085.html)
+- [ollvm_pass](https://github.com/ZEROLINGG/ollvm_pass)

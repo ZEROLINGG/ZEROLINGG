@@ -102,7 +102,7 @@ technique: ["{{ret-to-win}}", "{{jwt-forgery}}"]     #[建议] 利用技术数�
 {{四句话以内的总结，建议一句话，必须能让读者3秒内判断这题考什么，如"XX函数未校验长度导致堆溢出，通过tcache poisoning劫持__free_hook getshell"}}
 
 <details>
-<summary>Attack Chain Diagram (Optional)</summary>
+<summary>Attack Chain Diagram</summary>
 <!-- [额外] 判断标准：若解题过程包含3个以上相互依赖的关键转折点（如多次信息泄露+多阶段利用），建议保留此图；
      否则（如单一溢出点直接ret2libc）整体删除此details块（含标签），不要留空壳 -->
 

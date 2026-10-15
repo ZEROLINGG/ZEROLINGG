@@ -25,8 +25,32 @@ jobs:
         # can leave HTML referencing stale hashed assets. Always rebuild
         # from scratch. Safe as a no-op on fresh runners.
         run: rm -rf dist .astro node_modules/.astro
-      - name: Install, build, and upload your site
-        uses: withastro/action@v6
+      - name: Setup pnpm
+        uses: pnpm/action-setup@v4
+        with:
+          version: 10
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: pnpm
+      - name: Cache Playwright browsers
+        uses: actions/cache@v4
+        with:
+          path: ~/.cache/ms-playwright
+          key: ${{ runner.os }}-playwright-${{ hashFiles('pnpm-lock.yaml') }}
+          restore-keys: |
+            ${{ runner.os }}-playwright-
+      - name: Install dependencies
+        run: pnpm install --frozen-lockfile
+      - name: Install Playwright chromium (rehype-mermaid needs it at build time)
+        run: npx playwright install --with-deps chromium
+      - name: Build your site
+        run: pnpm build
+      - name: Upload Pages artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: dist
 
   deploy:
     needs: build
