@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "src/content/docs/blog/2026-10-ace2-11r-crossflash.md",
-                "mode": "source",
+                "file": "src/content/docs/writeups/mobile/mobile2-gctf.md",
+                "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "2026-10-ace2-11r-crossflash"
+              "title": "mobile2-gctf"
             }
           }
         ]
@@ -161,7 +161,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "src/content/docs/blog/2026-10-ace2-11r-crossflash.md",
+                "file": "src/content/docs/writeups/mobile/mobile2-gctf.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -190,6 +190,7 @@
   },
   "active": "fc81ef6cdd72f165",
   "lastOpenFiles": [
+    "src/content/docs/blog/2026-10-ace2-11r-crossflash.md",
     "src/content/docs/writeups/reverse/Whereistheflag.md",
     "dist/sitemap-0.xml",
     "dist/sitemap-index.xml",
@@ -205,7 +206,6 @@
     "dist/_astro/houston.CZZyCf7p.webp",
     "dist/og.png",
     "dist/favicon.svg",
-    "src/content/docs/blog/2026-10-ace2-11r-crossflash.md",
     "src/content/docs/writeups/reverse/badtest-tmp.md",
     "src/content/docs/writeups/reverse/__badtest.md",
     "src/content/docs/writeups/reverse/index.md",
