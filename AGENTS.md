@@ -29,3 +29,10 @@ Astro 7 + Starlight + `starlight-blog` content site, deployed to GitHub Pages (`
 - Mermaid: write ```` ```mermaid ```` blocks; config uses `strategy: 'img-svg'` with light/dark `themeVariables` + `shiki.excludeLangs: ['mermaid']`. `public/mermaid-theme-swap.js` swaps light/dark SVG on `data-theme` change and `astro:page-load`. Don't replace with client-side mermaid.
 - Theming lives in `src/styles/custom.css` (Rosé Pine Dawn/Moon tokens, wired via `customCss`). `expressiveCode.themes: ['rose-pine-moon', 'rose-pine-dawn']`.
 - `README.md` is the GitHub profile page, not project docs — don't treat it as source of truth for the site.
+- Obsidian pasted images: Obsidian writes `![[name.png]]` wikilinks (attachments land in `src/assets/attachments/` per `.obsidian/app.json`), which Astro/GitHub render as literal text. After pasting, run `pnpm fix:images -- --write` (`scripts/fix-obsidian-images.mjs`, Node zero-deps, dry-run by default) to rewrite them as relative `![](.../../../assets/attachments/...)` paths that render in Obsidian + GitHub + Astro. Never hand-write `/ZEROLINGG/...` image URLs.
+
+## Environment source of truth (`.Environment.md`)
+
+- `.Environment.md` (repo root) is the single source of truth for local machine + reverse-tool versions. It was baselined on 2026-10-16 from `fastfetch` and `<tool> --version` outputs.
+- Updating: when a tool is upgraded or a new tool enters the workflow, update `.Environment.md` first (re-run the version command, refresh the record date). Never let it go stale.
+- Writing writeups: every writeup's `### Environment` section MUST copy versions verbatim from `.Environment.md` and list only tools actually used in that writeup. Do NOT invent versions (`2024.x`, `任意近年版本`, `常规版本` placeholders are forbidden) — if a tool's version is unknown, run the version command and update `.Environment.md` instead of guessing.

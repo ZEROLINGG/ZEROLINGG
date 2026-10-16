@@ -5,8 +5,9 @@
   "scripts": {
     "dev": "astro dev",
     "start": "astro dev",
-    "build": "astro build",
+    "build": "node scripts/fix-obsidian-images.mjs --check && astro build",
     "preview": "astro preview",
+    "images:fix": "node scripts/fix-obsidian-images.mjs --write --force",
     "astro": "astro"
   },
   "dependencies": {

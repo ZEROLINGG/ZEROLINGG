@@ -34,7 +34,7 @@ technique: ["gdb watchpoint",  "ollvm bypass"]
 
 | Tool/Component | Version |
 | -------------------- | --------------------------- |
-| OS | Kali / Ubuntu 22.04 |
+| OS | Kali GNU/Linux Rolling x86_64 |
 | GDB + pwndbg | 任意近年版本，需支持 `catch syscall` / `awatch` 条件断点 |
 | file / checksec | 常规版本，用于确认链接方式与保护机制 |
 | IDA | 仅用于验证静态不可读，未作为主路径 |

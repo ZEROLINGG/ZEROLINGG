@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "src/content/docs/writeups/reverse/Easy_vb.md",
-                "mode": "preview",
+                "file": "src/content/docs/writeups/reverse/Easy_Re.md",
+                "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Easy_vb"
+              "title": "Easy_Re"
             }
           }
         ]
@@ -161,7 +161,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "src/content/docs/writeups/reverse/Easy_vb.md",
+                "file": "src/content/docs/writeups/reverse/Easy_Re.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -190,14 +190,7 @@
   },
   "active": "fc81ef6cdd72f165",
   "lastOpenFiles": [
-    "src/assets/attachments/Pasted image 20261016152834.png",
-    "src/assets/attachments/Pasted image 20261016152528.png",
-    "src/assets/attachments/Pasted image 20261016152351.png",
-    "src/content/docs/writeups/_template.md",
-    "src/content/docs/writeups/reverse/Easy_vb.md",
-    "src/content/docs/writeups/reverse/Whereistheflag.md",
-    "src/content/docs/writeups/mobile/mobile2-gctf.md",
-    "src/content/docs/blog/2026-10-ace2-11r-crossflash.md",
+    "src/assets/attachments/Pasted image 20261016171736.png",
     "dist/sitemap-0.xml",
     "dist/sitemap-index.xml",
     "dist/pagefind/pagefind-entry.json",
@@ -206,12 +199,26 @@
     "dist/pagefind/pagefind-component-ui.js",
     "dist/pagefind/pagefind-modular-ui.css",
     "dist/pagefind/pagefind-modular-ui.js",
-    "dist/pagefind/pagefind-ui.css",
     "dist/pagefind/pagefind-ui.js",
+    "dist/pagefind/pagefind-worker.js",
     "dist/_astro/houston.CZZyCf7p_xmyrN.webp",
-    "dist/_astro/houston.CZZyCf7p.webp",
-    "dist/og.png",
-    "dist/favicon.svg",
+    "dist/_astro/Pasted image 20261016152351.DYOtsMo1_2tCWOr.webp",
+    "dist/_astro/peter-phone-btn-logic.jmqNrY52_1z98rs.webp",
+    "dist/_astro/peter-phone-ida-overview.DnDmG1WE_Z172c2Y.webp",
+    "dist/_astro/Pasted image 20261016152834.C-6XFnRd_2hQJ5J.webp",
+    "dist/_astro/Pasted image 20261016152528.Bw6Ef57x_Z1d3Jlf.webp",
+    "dist/_astro/Pasted image 20261016155550.sghhjlDA_Z1m7vec.webp",
+    "dist/_astro/Pasted image 20261016155550.sghhjlDA.png",
+    "dist/_astro/peter-phone-btn-logic.jmqNrY52.png",
+    "dist/_astro/peter-phone-ida-overview.DnDmG1WE.png",
+    "src/content/docs/writeups/reverse/peter的手机.md",
+    "src/content/docs/writeups/reverse/Whereistheflag.md",
+    "src/content/docs/writeups/reverse/Easy_vb.md",
+    "src/content/docs/writeups/reverse/Easy_Re.md",
+    "src/content/docs/writeups/_template.md",
+    "src/content/docs/writeups/reverse/_template.md",
+    "src/content/docs/writeups/mobile/mobile2-gctf.md",
+    "src/content/docs/blog/2026-10-ace2-11r-crossflash.md",
     "src/content/docs/writeups/reverse/badtest-tmp.md",
     "src/content/docs/writeups/reverse/__badtest.md",
     "src/content/docs/writeups/reverse/index.md",
@@ -225,12 +232,8 @@
     "src/content/docs/knowledge/index.md",
     "src/content/docs/writeups/web/dummy-test.md",
     "src/content/docs/blog/2026-10-hello.md",
-    "src/assets/attachments/Pasted image 20261015104221.png",
-    "src/assets/houston.webp",
     "README.md",
     "src/content/docs/writeups/reverse/mobile2(gctf).md",
-    "src/assets/attachments/Pasted image 20261015104114.png",
-    "src/assets/Pasted image 20261015103512.png",
     "src/content/docs/about.md",
     "whereistheflag.md"
   ]

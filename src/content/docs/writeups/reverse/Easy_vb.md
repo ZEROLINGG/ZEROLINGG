@@ -1,7 +1,7 @@
 ---
 # ============ Basic Info ============
 title: "Bugku CTF - Easy_vb"   #[强制必须] 非空字符串，页面标题
-description: "{{一句话描述该题目，建议20-80字，用于列表页摘要/SEO}}"  #[强制必须] 非空字符串
+description: "简单vb逆向"  #[强制必须] 非空字符串
 
 # ============ Time Info ============
 date: 2026-10-16                         #[建议] 格式 YYYY-MM-DD
@@ -145,7 +145,7 @@ diec ./easy_vb.exe
      不强制使用标题标签，用自然语言融合表达。 -->
 
 
-![[Pasted image 20261016152351.png]]
+![Pasted image 20261016152351](../../../../assets/attachments/Pasted%20image%2020261016152351.png)
 
 
 
@@ -157,11 +157,11 @@ diec ./easy_vb.exe
 
 点击Code->QCTF展开
 
-![[Pasted image 20261016152528.png]]
+![Pasted image 20261016152528](../../../../assets/attachments/Pasted%20image%2020261016152528.png)
 
 #### 查看Command1_Click_402310
 
-![[Pasted image 20261016152834.png]]
+![Pasted image 20261016152834](../../../../assets/attachments/Pasted%20image%2020261016152834.png)
 首先看到两个`MCTF{_N3t_Rev_1s_E4ay_}`，我们怀疑它可能是flag。
 然后分析逻辑，它获取一个文本存到var_18里面，如果(var_18 == "MCTF{_N3t_Rev_1s_E4ay_}") + 1 为True则将其MsgBox展示，否则提示`Try again!`。
 
@@ -174,4 +174,3 @@ diec ./easy_vb.exe
 
 - [Bugku CTF - Easy_vb](https://ctf.bugku.com/challenges/detail/id/100.html)
 - [VB_Decompiler_Pro_v_10.0_FFF.zip](https://down.52pojie.cn/Tools/Disassemblers/VB_Decompiler_Pro_v_10.0_FFF.zip)
-
