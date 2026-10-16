@@ -90,18 +90,18 @@ export default defineConfig({
 				{
 					label: 'About',
 					items: [{ label: 'About Me', slug: 'about' }],
-				},
-				{
-					label: 'Blog',
-					items: [{ label: 'All posts', link: '/blog/' }],
+        },
+        {
+					label: 'Writeups',
+					items: [{ autogenerate: { directory: 'writeups' } }],
 				},
 				{
 					label: 'Knowledge',
 					items: [{ autogenerate: { directory: 'knowledge' } }],
-				},
-				{
-					label: 'Writeups',
-					items: [{ autogenerate: { directory: 'writeups' } }],
+        },
+        {
+					label: 'Blog',
+					items: [{ label: 'All posts', link: '/blog/' }],
 				},
 			],
 		}),

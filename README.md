@@ -6,6 +6,8 @@
 
 ![GitHub followers](https://img.shields.io/github/followers/ZEROLINGG?style=for-the-badge&logo=github)
 
+[![Blog](https://img.shields.io/badge/Blog-timeline_notes-d7827e?style=for-the-badge&logo=pencil)](https://zerolingg.github.io/ZEROLINGG/blog/) [![Knowledge](https://img.shields.io/badge/Knowledge-topic_notes-907aa9?style=for-the-badge&logo=open-book)](https://zerolingg.github.io/ZEROLINGG/knowledge/) [![Writeups](https://img.shields.io/badge/Writeups-CTF_WP-56949f?style=for-the-badge&logo=flag)](https://zerolingg.github.io/ZEROLINGG/writeups/)
+
 </div>
 
 ---

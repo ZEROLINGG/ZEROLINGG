@@ -2,8 +2,7 @@
 title: 一加 Ace 2 跨区刷入 11R 系统（PHK110 → CPH2487）实录
 description: Ace 2 国行跨区刷 11R 国际版 OxygenOS 的完整过程：方案比选、fastboot 分阶段刷机、三个实踩坑、SukiSU 到 KernelSU 的 Root 路线复盘。
 date: 2026-10-06
-authors:
-  - zerolingg
+author: ZEROLINGG
 tags:
   - android
   - fastboot
