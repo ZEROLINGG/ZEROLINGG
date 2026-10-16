@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "src/content/docs/writeups/reverse/bugku-hellosmali2.md",
-                "mode": "preview",
+                "file": "src/content/docs/writeups/reverse/bugku-intro-reverse.md",
+                "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "bugku-hellosmali2"
+              "title": "bugku-intro-reverse"
             }
           }
         ]
@@ -161,7 +161,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "src/content/docs/writeups/reverse/bugku-hellosmali2.md",
+                "file": "src/content/docs/writeups/reverse/bugku-intro-reverse.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -190,7 +190,10 @@
   },
   "active": "fc81ef6cdd72f165",
   "lastOpenFiles": [
-    "src/assets/attachments/Pasted image 20261016180831.png",
+    "src/content/docs/writeups/_template.md",
+    "src/content/docs/writeups/reverse/bugku-intro-reverse.md",
+    "src/content/docs/writeups/reverse/bugku-hellosmali2.md",
+    "src/content/docs/writeups/reverse/bugku-tree-secret.md",
     "dist/sitemap-0.xml",
     "dist/sitemap-index.xml",
     "dist/pagefind/pagefind-entry.json",
@@ -198,26 +201,23 @@
     "dist/pagefind/pagefind-component-ui.css",
     "dist/pagefind/pagefind-component-ui.js",
     "dist/pagefind/pagefind-modular-ui.css",
-    "dist/pagefind/pagefind-ui.js",
+    "dist/pagefind/pagefind-modular-ui.js",
     "dist/pagefind/pagefind-ui.css",
-    "dist/pagefind/pagefind.js",
-    "dist/_astro/peter-phone-btn-logic.jmqNrY52_1z98rs.webp",
+    "dist/pagefind/pagefind-ui.js",
     "dist/_astro/peter-phone-ida-overview.DnDmG1WE_Z172c2Y.webp",
+    "dist/_astro/peter-phone-btn-logic.jmqNrY52_1z98rs.webp",
     "dist/_astro/Pasted image 20261016152834.C-6XFnRd_2hQJ5J.webp",
-    "dist/_astro/HelloSmali2-srk-toolbox.FpApqEgY_Z1kycU6.webp",
-    "dist/_astro/Pasted image 20261016155550.sghhjlDA_Z1m7vec.webp",
-    "dist/_astro/Pasted image 20261016152528.Bw6Ef57x_Z1d3Jlf.webp",
-    "dist/_astro/Pasted image 20261016152351.DYOtsMo1_2tCWOr.webp",
-    "dist/_astro/HelloSmali2-jadx.BMik0TxL_26uYb9.webp",
     "dist/_astro/houston.CZZyCf7p_xmyrN.webp",
-    "dist/_astro/Pasted image 20261016155550.sghhjlDA.png",
-    "src/content/docs/writeups/reverse/bugku-tree-secret.md",
-    "src/content/docs/writeups/reverse/bugku-hellosmali2.md",
-    "src/content/docs/writeups/reverse/peter的手机.md",
-    "src/content/docs/writeups/reverse/Easy_Re.md",
+    "dist/_astro/Pasted image 20261016152528.Bw6Ef57x_Z1d3Jlf.webp",
+    "dist/_astro/HelloSmali2-srk-toolbox.FpApqEgY_Z1kycU6.webp",
+    "dist/_astro/Pasted image 20261016152351.DYOtsMo1_2tCWOr.webp",
+    "dist/_astro/Pasted image 20261016155550.sghhjlDA_Z1m7vec.webp",
+    "dist/_astro/Pasted image 20261016180831.m_xVvoov_ZVQSCh.webp",
+    "dist/_astro/intro-reverse-decode-run.CxvNkZsJ_ZCwM55.webp",
     "src/content/docs/writeups/reverse/Whereistheflag.md",
+    "src/content/docs/writeups/reverse/peter的手机.md",
     "src/content/docs/writeups/reverse/Easy_vb.md",
-    "src/content/docs/writeups/_template.md",
+    "src/content/docs/writeups/reverse/Easy_Re.md",
     "src/content/docs/writeups/reverse/_template.md",
     "src/content/docs/writeups/mobile/mobile2-gctf.md",
     "src/content/docs/blog/2026-10-ace2-11r-crossflash.md",
@@ -234,7 +234,6 @@
     "src/content/docs/knowledge/index.md",
     "src/content/docs/writeups/web/dummy-test.md",
     "src/content/docs/blog/2026-10-hello.md",
-    "README.md",
-    "src/content/docs/writeups/reverse/mobile2(gctf).md"
+    "README.md"
   ]
 }
