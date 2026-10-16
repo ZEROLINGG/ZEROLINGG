@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "src/content/docs/writeups/mobile/mobile2-gctf.md",
+                "file": "src/content/docs/writeups/reverse/Easy_vb.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "mobile2-gctf"
+              "title": "Easy_vb"
             }
           }
         ]
@@ -161,7 +161,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "src/content/docs/writeups/mobile/mobile2-gctf.md",
+                "file": "src/content/docs/writeups/reverse/Easy_vb.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -190,8 +190,14 @@
   },
   "active": "fc81ef6cdd72f165",
   "lastOpenFiles": [
-    "src/content/docs/blog/2026-10-ace2-11r-crossflash.md",
+    "src/assets/attachments/Pasted image 20261016152834.png",
+    "src/assets/attachments/Pasted image 20261016152528.png",
+    "src/assets/attachments/Pasted image 20261016152351.png",
+    "src/content/docs/writeups/_template.md",
+    "src/content/docs/writeups/reverse/Easy_vb.md",
     "src/content/docs/writeups/reverse/Whereistheflag.md",
+    "src/content/docs/writeups/mobile/mobile2-gctf.md",
+    "src/content/docs/blog/2026-10-ace2-11r-crossflash.md",
     "dist/sitemap-0.xml",
     "dist/sitemap-index.xml",
     "dist/pagefind/pagefind-entry.json",
@@ -218,8 +224,6 @@
     "src/content/docs/knowledge/networking/index.md",
     "src/content/docs/knowledge/index.md",
     "src/content/docs/writeups/web/dummy-test.md",
-    "src/content/docs/writeups/mobile/mobile2-gctf.md",
-    "src/content/docs/writeups/_template.md",
     "src/content/docs/blog/2026-10-hello.md",
     "src/assets/attachments/Pasted image 20261015104221.png",
     "src/assets/houston.webp",
@@ -228,8 +232,6 @@
     "src/assets/attachments/Pasted image 20261015104114.png",
     "src/assets/Pasted image 20261015103512.png",
     "src/content/docs/about.md",
-    "whereistheflag.md",
-    "public/og.png",
-    "public/favicon.svg"
+    "whereistheflag.md"
   ]
 }

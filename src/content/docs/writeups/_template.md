@@ -4,7 +4,7 @@ title: "{{EVENT_NAME}} - {{CHALLENGE_NAME}}"   #[强制必须] 非空字符串�
 description: "{{一句话描述该题目，建议20-80字，用于列表页摘要/SEO}}"  #[强制必须] 非空字符串
 
 # ============ Time Info ============
-date: 2024-01-01                         #[建议] 格式 YYYY-MM-DD
+date: 2026-01-01                         #[建议] 格式 YYYY-MM-DD
 
 # ============ Author Info ============
 author: "{{your_handle}}"                  #[强制必须] 用于归属与建库索引
@@ -17,7 +17,7 @@ author: "{{your_handle}}"                  #[强制必须] 用于归属与建库
 #   tags        : 数组，自由检索关键词，可与上述字段重复，面向全文检索而非严格分类，不做强制去重校验
 category: "{{Pwn}}"                        #[强制必须] 枚举值：Pwn/Reverse/Web/Crypto/Misc/Mobile/Blockchain/AI/Forensics/OSINT/Hardware
 subcategory: "{{Heap Exploitation}}"       #[建议] 自由文本单值子分类，如 Heap/ROP/SQLi/RSA/APK逆向
-tags: ["{{ret2libc}}", "{{house-of-force}}"] #[建议] 检索关键词数组，统一英文短语
+tags: ["{{ret2libc}}", "{{house-of-force}}"] #[建议] 自由检索关键词数组，统一英文短语，全小写，使用连字符分隔
 
 # ============ Difficulty Info ============
 difficulty: "{{Medium}}"                   #[建议] 官方标注难度，枚举：Easy/Medium/Hard/Insane
@@ -31,8 +31,8 @@ first_blood: false                       #[额外] 是否一血；Boolean类型
 
 # ============ Vulnerability/Technique Info (for indexing) ============
 cve: ["{{CVE-2021-XXXXX}}"]                #[额外] 如涉及已知CVE，无则留空数组 []
-vuln_type: ["{{heap-overflow}}", "{{use-after-free}}"]   #[建议] 漏洞根因类型数组，无则留空 []
-technique: ["{{ret-to-win}}", "{{jwt-forgery}}"]     #[建议] 利用技术数组，无则留空 []
+vuln_type: ["{{Stack Overflow}}"]   #[建议] 漏洞根因类型数组，无则留空 []
+technique: ["{{ret2text}}", "{{stack pivoting}}"]     #[建议] 利用技术数组，无则留空 []
 ---
 
 <!--

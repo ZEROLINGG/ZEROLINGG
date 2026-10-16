@@ -11,7 +11,7 @@ my_difficulty: "Hard"
 event: "Bugku CTF"
 cve: []
 vuln_type: []
-technique: ["gdb-watchpoint", "u128-compare-patch", "ollvm-bypass"]
+technique: ["gdb watchpoint",  "ollvm bypass"]
 ---
 
 
