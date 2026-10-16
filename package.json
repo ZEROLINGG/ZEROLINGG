@@ -3,10 +3,10 @@
   "type": "module",
   "version": "0.0.1",
   "scripts": {
-    "dev": "astro dev",
-    "start": "astro dev",
+    "dev": "node scripts/fix-obsidian-images.mjs --check && astro dev",
+    "start": "node scripts/fix-obsidian-images.mjs --check && astro dev",
     "build": "node scripts/fix-obsidian-images.mjs --check && astro build",
-    "preview": "astro preview",
+    "preview": "node scripts/fix-obsidian-images.mjs --check && astro preview",
     "images:fix": "node scripts/fix-obsidian-images.mjs --write --force",
     "astro": "astro"
   },

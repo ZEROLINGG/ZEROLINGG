@@ -30,7 +30,6 @@ technique:
 
 > 题目作者：tomPeter15；提示：需要手机越狱，或者其他方式，安装第三方软件；描述：flag 格式 `flag{}`。
 
-附件为 `peter的手机.ipa.zip`，提交验证 `flag{1997019247Acf}` 为正确 flag。
 
 ### Attachments
 
